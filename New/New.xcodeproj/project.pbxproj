@@ -14,6 +14,8 @@
 		74153D6D1AF8CF1100D4875A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74153D6C1AF8CF1100D4875A /* Images.xcassets */; };
 		74153D701AF8CF1100D4875A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74153D6E1AF8CF1100D4875A /* LaunchScreen.xib */; };
 		74153D7C1AF8CF1100D4875A /* NewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74153D7B1AF8CF1100D4875A /* NewTests.m */; };
+		7455380A1AF9B7AB000E8346 /* CheckVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 745538081AF9B7AB000E8346 /* CheckVC.m */; };
+		7455380B1AF9B7AB000E8346 /* CheckVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 745538091AF9B7AB000E8346 /* CheckVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		74153D751AF8CF1100D4875A /* NewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74153D7A1AF8CF1100D4875A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74153D7B1AF8CF1100D4875A /* NewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewTests.m; sourceTree = "<group>"; };
+		745538071AF9B7AB000E8346 /* CheckVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckVC.h; sourceTree = "<group>"; };
+		745538081AF9B7AB000E8346 /* CheckVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckVC.m; sourceTree = "<group>"; };
+		745538091AF9B7AB000E8346 /* CheckVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 		74153D5E1AF8CF1100D4875A /* New */ = {
 			isa = PBXGroup;
 			children = (
+				745538071AF9B7AB000E8346 /* CheckVC.h */,
+				745538081AF9B7AB000E8346 /* CheckVC.m */,
+				745538091AF9B7AB000E8346 /* CheckVC.xib */,
 				74153D631AF8CF1100D4875A /* AppDelegate.h */,
 				74153D641AF8CF1100D4875A /* AppDelegate.m */,
 				74153D661AF8CF1100D4875A /* ViewController.h */,
@@ -202,6 +210,7 @@
 				74153D6B1AF8CF1100D4875A /* Main.storyboard in Resources */,
 				74153D701AF8CF1100D4875A /* LaunchScreen.xib in Resources */,
 				74153D6D1AF8CF1100D4875A /* Images.xcassets in Resources */,
+				7455380B1AF9B7AB000E8346 /* CheckVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +231,7 @@
 				74153D681AF8CF1100D4875A /* ViewController.m in Sources */,
 				74153D651AF8CF1100D4875A /* AppDelegate.m in Sources */,
 				74153D621AF8CF1100D4875A /* main.m in Sources */,
+				7455380A1AF9B7AB000E8346 /* CheckVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +426,7 @@
 				74153D811AF8CF1100D4875A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74153D821AF8CF1100D4875A /* Build configuration list for PBXNativeTarget "NewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +435,7 @@
 				74153D841AF8CF1100D4875A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
