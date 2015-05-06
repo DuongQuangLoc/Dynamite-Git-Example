@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		74153D621AF8CF1100D4875A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74153D611AF8CF1100D4875A /* main.m */; };
 		74153D651AF8CF1100D4875A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74153D641AF8CF1100D4875A /* AppDelegate.m */; };
-		74153D681AF8CF1100D4875A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74153D671AF8CF1100D4875A /* ViewController.m */; };
-		74153D6B1AF8CF1100D4875A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74153D691AF8CF1100D4875A /* Main.storyboard */; };
 		74153D6D1AF8CF1100D4875A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74153D6C1AF8CF1100D4875A /* Images.xcassets */; };
 		74153D701AF8CF1100D4875A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74153D6E1AF8CF1100D4875A /* LaunchScreen.xib */; };
 		74153D7C1AF8CF1100D4875A /* NewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74153D7B1AF8CF1100D4875A /* NewTests.m */; };
@@ -34,9 +32,6 @@
 		74153D611AF8CF1100D4875A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74153D631AF8CF1100D4875A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74153D641AF8CF1100D4875A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74153D661AF8CF1100D4875A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74153D671AF8CF1100D4875A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		74153D6A1AF8CF1100D4875A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74153D6C1AF8CF1100D4875A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74153D6F1AF8CF1100D4875A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		74153D751AF8CF1100D4875A /* NewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,9 +86,6 @@
 				745538091AF9B7AB000E8346 /* CheckVC.xib */,
 				74153D631AF8CF1100D4875A /* AppDelegate.h */,
 				74153D641AF8CF1100D4875A /* AppDelegate.m */,
-				74153D661AF8CF1100D4875A /* ViewController.h */,
-				74153D671AF8CF1100D4875A /* ViewController.m */,
-				74153D691AF8CF1100D4875A /* Main.storyboard */,
 				74153D6C1AF8CF1100D4875A /* Images.xcassets */,
 				74153D6E1AF8CF1100D4875A /* LaunchScreen.xib */,
 				74153D5F1AF8CF1100D4875A /* Supporting Files */,
@@ -207,7 +199,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74153D6B1AF8CF1100D4875A /* Main.storyboard in Resources */,
 				74153D701AF8CF1100D4875A /* LaunchScreen.xib in Resources */,
 				74153D6D1AF8CF1100D4875A /* Images.xcassets in Resources */,
 				7455380B1AF9B7AB000E8346 /* CheckVC.xib in Resources */,
@@ -228,7 +219,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74153D681AF8CF1100D4875A /* ViewController.m in Sources */,
 				74153D651AF8CF1100D4875A /* AppDelegate.m in Sources */,
 				74153D621AF8CF1100D4875A /* main.m in Sources */,
 				7455380A1AF9B7AB000E8346 /* CheckVC.m in Sources */,
@@ -254,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		74153D691AF8CF1100D4875A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74153D6A1AF8CF1100D4875A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74153D6E1AF8CF1100D4875A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

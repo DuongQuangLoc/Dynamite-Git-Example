@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CheckVC.h"
 @interface AppDelegate ()
 
 @end
@@ -16,6 +16,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window =[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    
+    CheckVC *checkVC = [[CheckVC alloc]init];
+    
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:checkVC];
+    self.window.rootViewController= navi;
+
+    
     // Override point for customization after application launch.
     return YES;
 }
