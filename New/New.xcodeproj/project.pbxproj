@@ -18,6 +18,8 @@
 		74153D7C1AF8CF1100D4875A /* NewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74153D7B1AF8CF1100D4875A /* NewTests.m */; };
 		7455380A1AF9B7AB000E8346 /* CheckVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 745538081AF9B7AB000E8346 /* CheckVC.m */; };
 		7455380B1AF9B7AB000E8346 /* CheckVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 745538091AF9B7AB000E8346 /* CheckVC.xib */; };
+		74823DF51AFAF8F2009C8485 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 74823DF31AFAF8F2009C8485 /* MainVC.m */; };
+		74823DF61AFAF8F2009C8485 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74823DF41AFAF8F2009C8485 /* MainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		745538071AF9B7AB000E8346 /* CheckVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckVC.h; sourceTree = "<group>"; };
 		745538081AF9B7AB000E8346 /* CheckVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckVC.m; sourceTree = "<group>"; };
 		745538091AF9B7AB000E8346 /* CheckVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckVC.xib; sourceTree = "<group>"; };
+		74823DF21AFAF8F2009C8485 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		74823DF31AFAF8F2009C8485 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		74823DF41AFAF8F2009C8485 /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,7 @@
 		74153D5E1AF8CF1100D4875A /* New */ = {
 			isa = PBXGroup;
 			children = (
+				74823DF11AFAF8A6009C8485 /* MainVC  */,
 				745538071AF9B7AB000E8346 /* CheckVC.h */,
 				745538081AF9B7AB000E8346 /* CheckVC.m */,
 				745538091AF9B7AB000E8346 /* CheckVC.xib */,
@@ -141,6 +147,16 @@
 				74153D7A1AF8CF1100D4875A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74823DF11AFAF8A6009C8485 /* MainVC  */ = {
+			isa = PBXGroup;
+			children = (
+				74823DF21AFAF8F2009C8485 /* MainVC.h */,
+				74823DF31AFAF8F2009C8485 /* MainVC.m */,
+				74823DF41AFAF8F2009C8485 /* MainVC.xib */,
+			);
+			name = "MainVC ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +242,7 @@
 				74153D701AF8CF1100D4875A /* LaunchScreen.xib in Resources */,
 				74153D6D1AF8CF1100D4875A /* Images.xcassets in Resources */,
 				3303E5381AFB55DE00B62BBA /* test2.xib in Resources */,
+				74823DF61AFAF8F2009C8485 /* MainVC.xib in Resources */,
 				7455380B1AF9B7AB000E8346 /* CheckVC.xib in Resources */,
 				3303E5331AFB54C500B62BBA /* tessssssttt.xib in Resources */,
 			);
@@ -248,6 +265,7 @@
 				3303E5371AFB55DE00B62BBA /* test2.m in Sources */,
 				74153D651AF8CF1100D4875A /* AppDelegate.m in Sources */,
 				74153D621AF8CF1100D4875A /* main.m in Sources */,
+				74823DF51AFAF8F2009C8485 /* MainVC.m in Sources */,
 				7455380A1AF9B7AB000E8346 /* CheckVC.m in Sources */,
 				3303E5321AFB54C500B62BBA /* tessssssttt.m in Sources */,
 			);
