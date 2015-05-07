@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3303E5321AFB54C500B62BBA /* tessssssttt.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303E5301AFB54C500B62BBA /* tessssssttt.m */; };
+		3303E5331AFB54C500B62BBA /* tessssssttt.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3303E5311AFB54C500B62BBA /* tessssssttt.xib */; };
+		3303E5371AFB55DE00B62BBA /* test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303E5351AFB55DE00B62BBA /* test2.m */; };
+		3303E5381AFB55DE00B62BBA /* test2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3303E5361AFB55DE00B62BBA /* test2.xib */; };
 		74153D621AF8CF1100D4875A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74153D611AF8CF1100D4875A /* main.m */; };
 		74153D651AF8CF1100D4875A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74153D641AF8CF1100D4875A /* AppDelegate.m */; };
 		74153D6D1AF8CF1100D4875A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74153D6C1AF8CF1100D4875A /* Images.xcassets */; };
@@ -27,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3303E52F1AFB54C500B62BBA /* tessssssttt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tessssssttt.h; sourceTree = "<group>"; };
+		3303E5301AFB54C500B62BBA /* tessssssttt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tessssssttt.m; sourceTree = "<group>"; };
+		3303E5311AFB54C500B62BBA /* tessssssttt.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tessssssttt.xib; sourceTree = "<group>"; };
+		3303E5341AFB55DE00B62BBA /* test2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test2.h; sourceTree = "<group>"; };
+		3303E5351AFB55DE00B62BBA /* test2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test2.m; sourceTree = "<group>"; };
+		3303E5361AFB55DE00B62BBA /* test2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = test2.xib; sourceTree = "<group>"; };
 		74153D5C1AF8CF1100D4875A /* New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = New.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74153D601AF8CF1100D4875A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74153D611AF8CF1100D4875A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,9 +70,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3303E52E1AFB54B100B62BBA /* Loc */ = {
+			isa = PBXGroup;
+			children = (
+				3303E52F1AFB54C500B62BBA /* tessssssttt.h */,
+				3303E5301AFB54C500B62BBA /* tessssssttt.m */,
+				3303E5311AFB54C500B62BBA /* tessssssttt.xib */,
+				3303E5341AFB55DE00B62BBA /* test2.h */,
+				3303E5351AFB55DE00B62BBA /* test2.m */,
+				3303E5361AFB55DE00B62BBA /* test2.xib */,
+			);
+			name = Loc;
+			sourceTree = "<group>";
+		};
 		74153D531AF8CF1100D4875A = {
 			isa = PBXGroup;
 			children = (
+				3303E52E1AFB54B100B62BBA /* Loc */,
 				74153D5E1AF8CF1100D4875A /* New */,
 				74153D781AF8CF1100D4875A /* NewTests */,
 				74153D5D1AF8CF1100D4875A /* Products */,
@@ -201,7 +225,9 @@
 			files = (
 				74153D701AF8CF1100D4875A /* LaunchScreen.xib in Resources */,
 				74153D6D1AF8CF1100D4875A /* Images.xcassets in Resources */,
+				3303E5381AFB55DE00B62BBA /* test2.xib in Resources */,
 				7455380B1AF9B7AB000E8346 /* CheckVC.xib in Resources */,
+				3303E5331AFB54C500B62BBA /* tessssssttt.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +245,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3303E5371AFB55DE00B62BBA /* test2.m in Sources */,
 				74153D651AF8CF1100D4875A /* AppDelegate.m in Sources */,
 				74153D621AF8CF1100D4875A /* main.m in Sources */,
 				7455380A1AF9B7AB000E8346 /* CheckVC.m in Sources */,
+				3303E5321AFB54C500B62BBA /* tessssssttt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = New/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -350,6 +379,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = New/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
